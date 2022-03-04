@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+html {
+    font-family: 'Quicksand', sans-serif;
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.thongbao {
+    height: 40px;
+    text-align: center;
+    background: #6dd3cf;
+    color: rgb(243, 222, 222);
+    line-height: 40px;
+}
+
+.menu-logo {
+    height: 70px;
+    position: relative;
+    background: white;
+}
+
+.menu-logo .logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.menu-logo nav {
+    position: absolute;
+    top: 0px;
+    right: 200px;
+}
+
+.menu-logo nav a {
+    text-decoration: none;
+    color: black;
+    line-height: 70px;
+    margin: 0 30px;
+}
+
+.menu-logo nav a:hover {
+    color: #6dd3cf;
+    font-weight: bold;
+    transition: all .5s linear;
+}
+
+.menu-logo .login i {
+    font-size: 16px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    width: 35px;
+    line-height: 35px;
+    text-align: center;
+    height: 35px;
+    position: absolute;
+    right: 40px;
+    top: 20px;
+}
+
+.product .list-product .product-item:hover {
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    transition: all .5s linear;
+}
+
+.heading {
+    font-size: 28px;
+    color: #6dd3cf;
+    text-align: center;
+    margin: 40px 0;
+    position: relative;
+}
+
+footer {
+    width: 100%;
+    background: #6dd3cf;
+    color: #fff;
+    text-align: center;
+}
+
+footer .footer-item {
+    width: 30%;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+footer .footer-item h3 {
+    margin: 30px 0;
+}
+
+footer .link a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    margin: 3px 0;
+}
+
+.tacgia {
+    background: #6dd3cf;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.tacgia p {
+    padding-top: 10px;
+}
+
+.backtotop {
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+}
+
+.backtotop a {
+    padding: 10px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #faffff;
+    background: #6dd3cf;
+}
+
+.product {
+    margin-top: 150px;
+}
+
+.product.images {
+    display: flex;
+    gap: 0 50px;
+    padding: 0 50px;
+}
+
+.product.images .images-item:hover {
+    transition: all .3s linear;
+}
+
+.product.images .images-item {
+    position: relative;
+    display: inline-block;
+}
+
+.product .images .images-item img {
+    width: 100%;
+}
+
+.product.images .images-item .btn-about {
+    position: absolute;
+    top: 75%;
+    left: 95px;
+    text-decoration: none;
+    color: #6dd3cf;
+    font-size: 28px;
+    font-weight: bold;
+    border: 4px solid #6dd3cf;
+    padding: 10px 15px;
+}
+
+.main .images .images-item .btn-about:hover {
+    background: #d3e9e8;
+    color: #fff;
+    border: 4px solid #fff;
+    transition: all .3s linear;
+}
+
+.content {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.content .content-item {
+    margin: 50px 0;
+}
+
+.content-h4 {
+    margin-bottom: 15px;
+}
+
+
+/**/
+
+.product .list-product .product-item {
+    width: 20%;
+    margin: 22px 25px;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+
+.product .list-product .product-item:hover {
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    transition: all .3s linear;
+    transform: scale(1.1);
+}
+
+.product .list-product .product-item img {
+    max-width: 100%;
+}
+
+.banner {
+    width: 100%;
+    margin-top: 110px;
+}
+
+.banner img {
+    max-width: 100%;
+}
+
+#contain {
+    height: 340px;
+    width: 800px;
+}
+
+#video {
+    height: 340px;
+    width: 650px;
+    background-color: bisque;
+    margin-right: 10px;
+    float: Left;
+}
+
+#image>a>img {
+    height: 100px;
+    width: 140px;
+    margin-bottom: 20px;
+    float: Left;
+}
